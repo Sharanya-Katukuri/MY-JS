@@ -1,0 +1,141 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f2eb;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 20px;
+}
+ .certificate {
+     width: 800px; 
+     height: 100%;
+     margin: auto; 
+    background: linear-gradient(to bottom right, #70d7b1, #fca4e8, #bce183);
+    border: 10px solid #b48b7c;
+    border-radius: 10px;
+    padding: 25px;
+    /* background: #fff; */
+     
+
+  }
+  .qr {
+    position: absolute;
+    margin-top: 80px; 
+   }
+  .qr img {
+    width: 100px;
+    border: 2px solid #555;
+    border-radius: 4px;
+  }
+
+  .photo {
+    position: relative; 
+    top: 55px;
+    right:-400px ;
+    margin: auto;
+    width: 200px;
+  
+  }
+
+  .photo img {
+    width: 100px;
+    height: 120px;
+    border: 2px solid #333;
+    border-radius: 6px
+  } 
+
+  .header {
+    text-align: center;
+    border-bottom: 2px solid #a06a6a;
+    padding-bottom: 10px;
+    margin-top: -100px;
+  }
+  .header h2 {
+    margin: 0;
+    color: #972b04;
+
+  }
+  .header h4{
+    color: #972b04;
+    margin: 5px 0;
+  }
+  .header h3 {
+    margin: 0;
+    color: orangered;
+  }
+  .header img{
+    border-radius: 100%;
+    width: 130px;
+  }
+
+  .info {
+    margin-top: 15px;
+    line-height: 1.6;
+    border-bottom: 2px solid #a06a6a;
+
+  }
+  .info p{
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .info span {
+    font-weight: bold;
+    color: #a06a6a;
+  }
+  #gh{
+    font-size: 16px;
+    color: #714848;
+  }
+
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 14px;
+}
+  th, td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px;
+  }
+  th {
+    background-color:#f3e3d9;
+    color: #4d0606;
+  }
+  .marks h2{
+    color: #714848;
+}
+.mole{
+    margin-top: 15px;
+    display: flex;
+    border: 2px solid #a06a6a;
+    column-gap: 1px;
+}
+#p{
+    background-color:#b48b7c;
+    width:150px;
+    margin-left: 221px;
+}
+  
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer{
+    display: flex;
+    column-gap: 150px;
+    font-size: 13px;
+    align-items:end;
+    margin-top: 20px;
+    
+  }
+  .bord{
+    text-align: center;
+  }
+  .bord p{
+    color: orangered;
+  }
+  .qr2{
+    margin-top: 20px;
+  }

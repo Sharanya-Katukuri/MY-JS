@@ -139,3 +139,168 @@ body{
     margin-top: 20px;
     border-radius: 4px;
   }
+
+
+  /* ---------- For Tablets (Screen width: 768px and below) ---------- */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .certificate {
+    width: 100%;
+    padding: 15px;
+    border-width: 6px;
+  }
+
+  .header img {
+    width: 100px;
+  }
+
+  .photo {
+    right: 0;
+    top: 0;
+    text-align: center;
+  }
+
+  .photo img {
+    width: 80px;
+    height: 100px;
+  }
+
+  .qr {
+    position: relative;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .qr img {
+    width: 80px;
+  }
+
+  .header h2 {
+    font-size: 18px;
+  }
+
+  .header h3 {
+    font-size: 16px;
+  }
+
+  .info p {
+    font-size: 14px;
+  }
+
+  table {
+    font-size: 13px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    column-gap: 0;
+  }
+
+  .footer .qr2 img {
+    width: 80px;
+  }
+}
+
+/* ---------- For Mobile Phones (Screen width: 480px and below) ---------- */
+@media screen and (max-width: 480px) {
+  body {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .certificate {
+    width: 100%;
+    padding: 10px;
+    border-width: 4px;
+  }
+
+  .header {
+    margin-top: 0;
+  }
+
+  .header h2 {
+    font-size: 16px;
+  }
+
+  .header h3, .header h4 {
+    font-size: 14px;
+  }
+
+  .header img {
+    width: 80px;
+  }
+
+  .photo {
+    top: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .photo img {
+    width: 70px;
+    height: 90px;
+  }
+
+  .qr {
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .qr img {
+    width: 70px;
+  }
+
+  .info p {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  #gh {
+    font-size: 13px;
+  }
+
+  table {
+    font-size: 11px;
+  }
+
+  th, td {
+    padding: 5px;
+  }
+
+  .marks h2 {
+    font-size: 14px;
+  }
+
+  .mole {
+    flex-direction: column;
+    border-width: 1px;
+    padding: 5px;
+  }
+
+  #p {
+    display: none; /* Hide empty section on small screens */
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    column-gap: 0;
+  }
+
+  .bord p {
+    font-size: 12px;
+  }
+
+  .qr2 img {
+    width: 70px;
+  }
+}

@@ -138,7 +138,7 @@ str=main_array.toString()
 console.log(str);
 console.log(typeof(str))
 
-// join():joins array elements into astring with a specified separator
+// join():joins array elements into a string with a specified separator
 
 array5=main_array.join('-')
 console.log(array5)
@@ -147,7 +147,7 @@ console.log(array5)
 
 console.log(main_array.includes(3));
 
-// lastindexOf(): retrns the last occurrence of an element
+// lastindexOf(): returns the last occurrence of an element
 
 
 var arrs=[1,2,3,4,2,1,5,1,2,5]
